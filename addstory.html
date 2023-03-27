@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Travel Stories</title>
+    <style>
+        body {
+            background-image: url("pictures/css/australia.jpg");
+            background-size: cover; 
+          }
+          </style>
+</head>
+<body>
+<h1>Stories</h1>
+<div class="loginBox">
+    <h3>Add Story</h3>
+    <br><br>
+    <form method="post" action="connection.php">
+        
+        <label>Title:</label><input type="text" name="title" placeholder="story"/><br>
+        
+        <label>:image</label><input type="file" name="image" placeholder="story"/><br>
+        <label>:location</label><input type="text" name="location" placeholder="story"/><br>
+        
+        <br><br>
+        <textarea name="content" id="con" cols="30" rows="10"placeholder="story" ></textarea>
+        <input type="submit" name="submit" value = "go"/>
+    </form>
+   
+</div>
+</body>
+</html>
+
+<!--<textarea>:content</label><input type="text" name="story" placeholder="story"/><br>
+    <div class="error">
+        <?php //echo $error;?>
+        <?php //echo $username; echo$password;?>
+    </div>-->
